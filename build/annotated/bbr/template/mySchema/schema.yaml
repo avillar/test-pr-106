@@ -1,0 +1,22 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+description: My example schema
+type: object
+properties:
+  a:
+    type: string
+    format: uri
+    x-jsonld-id: '@type'
+  b:
+    type: number
+    x-jsonld-id: https://example.org/my-bb-model/b
+  c:
+    type: number
+    x-jsonld-id: https://example.org/my-bb-model/c
+required:
+- a
+- b
+x-bblocks-metadata:
+  itemIdentifier: ogc.bbr.template.mySchema
+  register: https://avillar.github.io/test-pr-106/build/register.json
+  version: '0.1'
+  dateOfLastChange: '2023-04-05'
