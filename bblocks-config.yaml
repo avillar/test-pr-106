@@ -95,7 +95,3 @@ schema-oas30-downcompile: False
 #       config:                              # Optional: JSON-serializable mapping, passed to the constructor of
 #         threshold: 3                       #   every class in this entry. Not published in register.json.
 #                                             #   Do not put secrets here - this file is committed to git.
-# Publish the site to a branch instead of through the Pages artifact API
-deploy:
-  mode: branch
-  branch: gh-pages
