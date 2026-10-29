@@ -1,0 +1,11 @@
+{
+  "@context": [
+    {
+      "mynamespace": "http://example.com/mythings/"
+    },
+    "https://avillar.github.io/test-pr-106/build/annotated/bbr/template/mySchema/context.jsonld"
+  ],
+  "a": "mynamespace:aThing",
+  "b": 23,
+  "c": 1
+}
